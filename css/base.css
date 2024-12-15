@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oldenburg&display=swap');
+
+:root{
+    /*bg colores*/
+--background-color: #0c011d;
+
+
+/*textos*/
+--text-pri: #f4f4f5;
+--text-secu: #f0c3de;
+
+
+/*tipografia*/
+--olden: "Oldenburg", serif;
+
+
+/* decoracion*/
+--gradient: linear-gradient(to left, #7f20ed, #f27cd0);
+--button:#620481;
+--button-hover: #5300c6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: var(--olden);
+    font-style: normal;
+  }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10vh;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+body {
+    min-height: 100vh;
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
